@@ -12,7 +12,7 @@ public class DemoWebClientApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoWebClientApplication.class, args);
 
-		String make = "volkswagen";
+		String make = "tesla";
 
 		String url = MessageFormat.format("https://vpic.nhtsa.dot.gov/api//vehicles/GetModelsForMake/{0}?format=json", make);
 
